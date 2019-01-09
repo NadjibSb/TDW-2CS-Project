@@ -20,23 +20,16 @@
                 }
             }
         }
+    
 
-
-
-        public static function prepare_and_execute_query($requete, $donnees){
+        public static function execute_query($requete){
             if(!Db::$isConnected)
             {
                 Db::connect();
             }
-            echo $requete;
             $statement = self::$conn->prepare($requete);
-            $statement->execute($donnees);
+            $statement->execute(array());
             return self::fetchAll($statement);
-        }
-    
-
-        public static function execute_query($requete){
-            return self::prepare_and_execute_query($requete,array());
         }
     
 

@@ -48,7 +48,7 @@ VALUES ("professionnelle", "Institue des metiers de plomberie et chauffage", "Pl
          "50 Rue de la liberté", "021 56 25 70", "021 56 30 50 / 56 51 54");
 
 INSERT INTO FORMATIONS (Categorie, Ecole, Domaine, Wilaya, Commune, Adresse, Telephone, Fax)
-VALUES ("professionnelle", "Institue de mecanique", "Macanique", "Blida", "Soûmaa",
+VALUES ("professionnelle", "Institue de mecanique", "Macanique", "Blida", "Soumaa",
          "50 Rue de la gare", "021 56 25 70", "021 56 30 50 / 56 51 54");
 
 INSERT INTO FORMATIONS (Categorie, Ecole, Domaine, Wilaya, Commune, Adresse, Telephone, Fax)
@@ -59,3 +59,71 @@ INSERT INTO FORMATIONS (Categorie, Ecole, Domaine, Wilaya, Commune, Adresse, Tel
 VALUES ("professionnelle", "Institue des metiers du batiments", "Batiment", "Bechar", "Saoura",
          "50 Rue des oliviers", "021 56 25 70", "021 56 30 50 / 56 51 54");
 
+
+
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("secondaire", "Ecole El-Falah","Mostaganem", "Mansoura",
+         "50 Rue de la liberte", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("secondaire", "Ecole El-Nadjah","Constantine", "Ibn-Badis",
+         "50 Rue des martyrs", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("secondaire", "Ecole Les glycines","Alger", "Cheraga",
+         "50 Rue de la gare", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("secondaire", "Ecole Madrassati","Alger", "Hussein-Dey",
+         "50 Rue des oliviers", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+
+
+
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("moyenne", "Ecole Madrassati","Alger", "Hussein-Dey",
+         "50 Rue de la gare", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("moyenne", "Ecole El-Nadjah","Constantine", "Ibn-Badis",
+         "50 Rue des oliviers", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("moyenne", "Ecole La reussite","Bechar", "Beni Abbes",
+         "50 Rue des dunes", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+
+
+
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("primaire", "Ecole El-Nadjihine","Bouira", "Lakhdaria",
+         "50 Rue des dunes", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("primaire", "Ecole Madrassati","Alger", "Hussein-Dey",
+         "50 Rue des oliviers", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("primaire", "Ecole El-Nadjah","Constantine", "Ibn-Badis",
+         "50 Rue de la liberte", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("primaire", "Ecole La reussite","Bechar", "Beni Abbes",
+         "50 Rue des dunes", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("maternelle", "Ecole El-Nadjah","Constantine", "Ibn-Badis",
+         "50 Rue des oliviers", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("maternelle", "Ecole El-Oumma","Tipaza", "Cherchell",
+         "50 Rue des dunes", "021 56 25 70", "021 56 30 50 / 56 51 54");
+
+INSERT INTO FORMATIONS (Categorie, Ecole, Wilaya, Commune, Adresse, Telephone, Fax)
+VALUES ("maternelle", "Ecole Les glycines","Alger", "Cheraga",
+         "50 Rue de la gare", "021 56 25 70", "021 56 30 50 / 56 51 54");

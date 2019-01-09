@@ -1,0 +1,47 @@
+section {
+	width: 60%;
+	padding: 20px;
+	display: flex;
+
+	display: inline-block;
+	justify-content: center;
+	
+}
+
+form {
+	background-color: #fafafa;
+	box-shadow: 1px 1px 15px 1px #888888;
+	border-radius: 5px;
+    padding: 40px;
+    padding-left: 100px;
+    padding-right: 100px;
+	display: inline-block;
+	align-content: space-around;
+}
+
+body {
+	text-align: center;
+}
+
+input {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 3px solid;
+}
+
+.row {
+    display: inline-block;
+}
+
+.submitButton {
+    background: #65C370;
+	border: 0;
+	padding: 8px 20px;
+	border-radius: 4px;
+	color: #FFF;
+	text-transform: uppercase; 
+}
+
+.error {
+    color: red;
+}
