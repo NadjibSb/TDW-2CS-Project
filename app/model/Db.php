@@ -21,7 +21,6 @@
             }
         }
     
-
         public static function execute_query($requete){
             if(!Db::$isConnected)
             {

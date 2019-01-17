@@ -1,0 +1,145 @@
+html, body {
+    height: 100%;
+}
+.body{
+    background-color : whitesmoke;
+}
+.padding-left{
+    padding-left: 20px;
+}
+
+.margin-left{
+    margin-left: 20px;
+}
+
+
+/* ###################### HEADER ######################### */
+@font-face {
+    font-family: 'Maqueen Sans Demo';
+    src: url('./MaqueenSansDemo.ttf')  format('truetype')
+}
+.header{
+    background-color : black;
+    padding: 5px;
+    height : 4em;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.project-title{
+    text-align: center;
+    font-family: "Maqueen Sans Demo" ;
+    color: white;
+}
+.header-item{
+    height : 3em;
+}
+.img{
+    height: 100%;
+}
+.fill-height {
+    min-height: 100%;
+    height:auto !important; 
+    height: 100%; 
+}
+.remove-margin{
+    margin:0 ! important;
+    padding:0 ! important;
+    margin:0;
+    padding:0;
+}
+.slide{
+    height : 7em;
+    padding: 5px;
+    text-align: center;
+    background: rgba(112, 112, 112, 0.4);
+}
+
+/* ###################### Content ######################### */
+.content{
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+    margin:0 ! important;
+    padding:0 ! important;
+}
+.back{
+    background-color : #5cb85c;
+}
+
+/* ###################### Menu ######################### */
+ .menu{
+    padding: 10px;
+    padding-top: 1em;
+    
+}
+
+.comparer{
+} 
+
+a.list-group-item:hover{
+    background: antiquewhite;
+}
+
+
+/* ###################### Main ######################### */
+.main {
+    margin-bottom: 3em;
+    margin-top: 1em;
+    
+}
+
+/* ################### Categories ###################### */
+.categories{
+    margin-top: 30px;
+    
+}
+.categorie-item-container{
+    margin: 10px;
+}
+
+.categorie-item{
+    padding: 10px;
+    color: darkblue;
+    text-decoration: none;    
+}
+
+
+.cat-icon{
+    width: 150px;
+    height: auto;
+}
+
+.categorie-item-container:hover {
+	transform: scale(1.1);
+	transition: transform .3s;
+    transition-timing-function: ease;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* ###################### Ecoles ######################### */
+.ecoles{
+    margin-top: 20px;
+}
+
+/* ############## sous site de l'Ecole ######################### */
+.ecole-name{
+
+}
+
+/* ############## Comparer ######################### */
+.col-left{
+    padding-right: 10px;
+}
+.col-right{
+    padding-left: 10px;
+}
+
+/* ###################### Footer ######################### */
+.footer{
+    background-color : black;
+    padding: 5px;
+    padding-left: 25px; 
+    height : 2em;
+    box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+}

@@ -1,0 +1,103 @@
+html, body {
+    height: 100%;
+}
+.body{
+    background-color : whitesmoke;
+}
+.padding-left{
+    padding-left: 20px;
+}
+
+/* ###################### HEADER ######################### */
+@font-face {
+    font-family: 'Maqueen Sans Demo';
+    src: url('../../res/maqueen/MaqueenSansDemo.ttf')  format('truetype')
+}
+.header{
+    position: sticky;
+    background-color : black;
+    padding: 5px;
+    height : 4em;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+}
+.project-title{
+    text-align: center;
+    font-family: "Maqueen Sans Demo" ;
+    color: white;
+}
+.header-item{
+    height : 3em;
+}
+img{
+    height: 100%;
+}
+.fill-height {
+    min-height: 100%;
+    height:auto !important; 
+    height: 100%; 
+}
+.remove-margin{
+    margin:0 ! important;
+    padding:0 ! important;
+    margin:0;
+    padding:0;
+}
+.slide{
+    height : 7em;
+    padding: 5px;
+    text-align: center;
+    background: rgba(112, 112, 112, 0.4);
+}
+
+
+
+.diapo{
+    
+    height : 30em;
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+ /* ###################### main #################### */
+
+.ecole-name{
+    text-align: center;
+    margin: 30px;
+}
+.body-container{
+    margin: 20px;
+    background-color : whitesmoke;
+    border-radius: 25px;
+    border: 10px solid lightgray;
+}
+
+.video{
+    margin: 90px;
+    height: 100%;
+}
+
+.comment{
+    margin-top: 100px;
+}
+
+#add-comment{
+    margin: 20px;
+}
+
+
+/* ###################### Footer ######################### */
+.footer{
+    background-color : black;
+    padding: 5px;
+    padding-left: 25px; 
+    height : 2em;
+    box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.2);
+    color: white;
+}
+

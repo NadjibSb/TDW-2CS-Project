@@ -1,9 +1,14 @@
 <?php
 
+require_once __DIR__."/../controller/AuthCtrl.php";
 
     class Auth {
         private $title='Login Page';
         private $controller;
+
+        public function __construct(){
+            $this->controller = new AuthCtrl();
+        }
 
 
         function getTitle(){
@@ -27,10 +32,12 @@
                 </form>';
         }
 
-        function login(){
-            if(isset($_POST['username']) && isset($_POST['password'])){
-                $_POST['auth']=true;
-                header("location: ./../../pulic/view/admin/dashboard.php");
+        function login($username,$password){
+            if(isset($username) && isset($password)){
+
+                $auth= $this->controller->login($username,$password);
+                if($auth)   header("location: ".$_SESSION["ROOT_URL"]."/Accueil/");
+                else header("location: ./");
             }
         }
 
